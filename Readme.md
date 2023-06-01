@@ -33,3 +33,6 @@ SELECT datname FROM pg_database;
 - Postgres converts everything to lowercase so run
 ``` SELECT * from "User"; ``` to avoid casing errors
 ``` SELECT * from User ``` same as ``` SELECT * from user ``` gives postgres users
+
+-  env file contains
+-  ``` DATABASE_URL="postgres://postgres:<passwd>@localhost:5432/proofOfConcept" ```
